@@ -27,13 +27,13 @@ const ES = {
   "hero.role": "Desarrollador Web · Soporte Técnico",
 
   "about.title":          "Sobre Mí",
-  "about.text":           "[Escribe aquí dos o tres frases sobre ti: qué estudias, qué te interesa dentro del desarrollo web y qué estás buscando ahora.]",
+  "about.text":           "Soy estudiante de la carrera Técnica Profesional en Programación Web en UniEspinal. Me apasiona el desarrollo frontend, la creación de interfaces modernas y la resolución de problemas técnicos en software y hardware.",
   "about.infoTitle":      "Información",
   "about.labelLocation":  "Ubicación",
-  "about.valueLocation":  "[Ciudad], Colombia",
+  "about.valueLocation":  "El Espinal, Colombia",
   "about.labelEmail":     "Correo",
   "about.labelLanguages": "Idiomas",
-  "about.valueLanguages": "Español (nativo) · Inglés ([tu nivel])",
+  "about.valueLanguages": "Español (nativo) · Inglés (Básico/Técnico)",
   "about.labelStatus":    "Disponibilidad",
   "about.valueStatus":    "Abierto a prácticas",
   "about.interestsTitle": "Intereses",
@@ -56,29 +56,29 @@ const ES = {
   "resume.experience": "Experiencia",
 
   "edu.1.title": "Técnico Profesional en Programación Web",
-  "edu.1.text":  "[Una o dos frases sobre lo que estás aprendiendo y qué sabes hacer ahora.]",
-  "edu.2.title": "[Curso o certificación]",
-  "edu.2.text":  "[Qué aprendiste y para qué te sirve.]",
+  "edu.1.text":  "Formación enfocada en el desarrollo web adaptable con HTML, CSS, lógica con JavaScript y gestión de bases de datos relacionales.",
+  "edu.2.title": "Inglés Técnico I y II",
+  "edu.2.text":  "Comprensión de lectura de documentación técnica, lectura de archivos README y comunicación clara de avances en proyectos.",
 
-  "exp.1.title": "[Rol o tipo de proyecto]",
-  "exp.1.text":  "[Qué hiciste, con qué herramientas y qué resultado tuvo.]",
-  "exp.2.title": "[Rol o tipo de proyecto]",
-  "exp.2.text":  "[Qué hiciste, con qué herramientas y qué resultado tuvo.]",
+  "exp.1.title": "Desarrollador Frontend (Proyecto Integrador)",
+  "exp.1.text":  "Diseñé e implementé un portafolio web personal bilingüe (ES/EN) aplicando animaciones CSS y conmutador de idioma en JavaScript.",
+  "exp.2.title": "Soporte Técnico y Mantenimiento",
+  "exp.2.text":  "Diagnóstico y corrección de fallas de software, configuración de entornos de programación e instalación de hardware.",
 
   "portfolio.title": "Proyectos",
-  "project.1.title": "[Nombre del proyecto]",
-  "project.1.text":  "[Tecnologías usadas]",
-  "project.2.title": "[Nombre del proyecto]",
-  "project.2.text":  "[Tecnologías usadas]",
-  "project.3.title": "[Nombre del proyecto]",
-  "project.3.text":  "[Tecnologías usadas]",
+  "project.1.title": "Perfil Web Bilingüe",
+  "project.1.text":  "HTML, CSS, JavaScript",
+  "project.2.title": "Formulario Interactivo",
+  "project.2.text":  "HTML5, JavaScript",
+  "project.3.title": "Lógica con MySQL",
+  "project.3.text":  "SQL, Base de Datos",
 
   "contact.title":         "Contacto",
-  "contact.intro":         "[Una frase invitando a escribirte. Por ejemplo: ¿Tienes un proyecto o una vacante? Escríbeme.]",
+  "contact.intro":         "¿Tienes un proyecto en mente o buscas un perfil con mis habilidades? ¡Escríbeme y trabajemos juntos!",
   "contact.emailLabel":    "Correo",
-  "contact.linkedinValue": "[Tu perfil profesional]",
+  "contact.linkedinValue": "github.com/cristian04111",
 
-  "footer.note": "[Tu nombre] · Técnico Profesional en Programación Web · UniEspinal"
+  "footer.note": "Cristian Fernando Aguirre Rodriguez · Técnico Profesional en Programación Web · UniEspinal"
 };
 
 
@@ -101,13 +101,13 @@ const EN = {
   "hero.role": "Web Developer · Technical Support",
 
   "about.title":          "About Me",
-  "about.text":           "[Write two or three sentences about yourself: what you study, what interests you in web development, and what you are looking for now.]",
+  "about.text":           "I am a Web Programming student at UniEspinal. Passionate about frontend development, modern UI creation, and troubleshooting both software and hardware issues.",
   "about.infoTitle":      "Information",
   "about.labelLocation":  "Location",
-  "about.valueLocation":  "[City], Colombia",
+  "about.valueLocation":  "El Espinal, Colombia",
   "about.labelEmail":     "Email",
   "about.labelLanguages": "Languages",
-  "about.valueLanguages": "Spanish (native) · English ([your level])",
+  "about.valueLanguages": "Spanish (native) · English (Basic/Technical)",
   "about.labelStatus":    "Availability",
   "about.valueStatus":    "Open to internships",
   "about.interestsTitle": "Interests",
@@ -130,29 +130,29 @@ const EN = {
   "resume.experience": "Experience",
 
   "edu.1.title": "Professional Technician in Web Programming",
-  "edu.1.text":  "[One or two sentences about what you are learning and what you can do now.]",
-  "edu.2.title": "[Course or certificate]",
-  "edu.2.text":  "[What you learned and how you use it.]",
+  "edu.1.text":  "Training focused on responsive web development using HTML, CSS, JavaScript logic, and relational database management.",
+  "edu.2.title": "Technical English I & II",
+  "edu.2.text":  "Reading comprehension of technical documentation, reviewing README files, and presenting project updates clearly.",
 
-  "exp.1.title": "[Role or type of project]",
-  "exp.1.text":  "[What you did, which tools you used, and what the result was.]",
-  "exp.2.title": "[Role or type of project]",
-  "exp.2.text":  "[What you did, which tools you used, and what the result was.]",
+  "exp.1.title": "Frontend Developer (Capstone Project)",
+  "exp.1.text":  "Designed and built a bilingual personal portfolio (ES/EN) featuring custom CSS animations and a JavaScript language switcher.",
+  "exp.2.title": "Technical Support & Maintenance",
+  "exp.2.text":  "Troubleshot software errors, configured local development tools, and installed and optimized hardware components.",
 
   "portfolio.title": "Projects",
-  "project.1.title": "[Project name]",
-  "project.1.text":  "[Technologies used]",
-  "project.2.title": "[Project name]",
-  "project.2.text":  "[Technologies used]",
-  "project.3.title": "[Project name]",
-  "project.3.text":  "[Technologies used]",
+  "project.1.title": "Bilingual Web Profile",
+  "project.1.text":  "HTML, CSS, JavaScript",
+  "project.2.title": "Interactive Form",
+  "project.2.text":  "HTML5, JavaScript",
+  "project.3.title": "MySQL Logic",
+  "project.3.text":  "SQL, Database",
 
   "contact.title":         "Contact",
-  "contact.intro":         "[One sentence inviting people to write to you. Example: Have a project or a vacancy? Send me a message.]",
+  "contact.intro":         "Do you have a project in mind or an open opportunity? Send me a message and let's collaborate!",
   "contact.emailLabel":    "Email",
-  "contact.linkedinValue": "[Your professional profile]",
+  "contact.linkedinValue": "github.com/cristian04111",
 
-  "footer.note": "[Your name] · Professional Technician in Web Programming · UniEspinal"
+  "footer.note": "Cristian Fernando Aguirre Rodriguez · Professional Technician in Web Programming · UniEspinal"
 };
 
 
