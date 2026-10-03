@@ -1,17 +1,7 @@
 /* ============================================================
    WEB PROFILE TEMPLATE - SCRIPT
    UniEspinal · Técnico Profesional en Programación Web
-
-   THIS IS THE FILE YOU WILL WORK ON THE MOST.
-
-   Below there are two dictionaries: ES and EN.
-   They have exactly the same keys, but different texts.
-
-   IMPORTANT: the English version is NOT a translation of the
-   Spanish version. A professional profile in English follows
-   different rules. Read NOTES.md before you write it.
    ============================================================ */
-
 
 /* ------------------------------------------------------------
    1. SPANISH TEXTS
@@ -27,13 +17,13 @@ const ES = {
   "hero.role": "Desarrollador Web · Soporte Técnico",
 
   "about.title":          "Sobre Mí",
-  "about.text":           "Soy estudiante de la carrera Técnica Profesional en Programación Web en UniEspinal. Me apasiona el desarrollo frontend, la creación de interfaces modernas y la resolución de problemas técnicos en software y hardware.",
+  "about.text":           "Soy estudiante de la carrera Técnica Profesional en Programación Web en UniEspinal. Me apasiona el desarrollo frontend, la creación de interfaces modernas y la solución de problemas técnicos tanto en software como en hardware.",
   "about.infoTitle":      "Información",
   "about.labelLocation":  "Ubicación",
   "about.valueLocation":  "El Espinal, Colombia",
   "about.labelEmail":     "Correo",
   "about.labelLanguages": "Idiomas",
-  "about.valueLanguages": "Español (nativo) · Inglés (Básico/Técnico)",
+  "about.valueLanguages": "Español (nativo) · Inglés (Básico)",
   "about.labelStatus":    "Disponibilidad",
   "about.valueStatus":    "Abierto a prácticas",
   "about.interestsTitle": "Intereses",
@@ -56,14 +46,14 @@ const ES = {
   "resume.experience": "Experiencia",
 
   "edu.1.title": "Técnico Profesional en Programación Web",
-  "edu.1.text":  "Formación enfocada en el desarrollo web adaptable con HTML, CSS, lógica con JavaScript y gestión de bases de datos relacionales.",
+  "edu.1.text":  "Formación enfocada en el diseño web adaptable, desarrollo frontend estructurado con HTML/CSS, interactividad con JavaScript y gestión de bases de datos.",
   "edu.2.title": "Inglés Técnico I y II",
-  "edu.2.text":  "Comprensión de lectura de documentación técnica, lectura de archivos README y comunicación clara de avances en proyectos.",
+  "edu.2.text":  "Comprensión de lectura de documentación técnica, manejo de repositorios en inglés y presentación técnica de proyectos.",
 
   "exp.1.title": "Desarrollador Frontend (Proyecto Integrador)",
-  "exp.1.text":  "Diseñé e implementé un portafolio web personal bilingüe (ES/EN) aplicando animaciones CSS y conmutador de idioma en JavaScript.",
+  "exp.1.text":  "Diseñé e implementé una plataforma web personal bilingüe (ES/EN) con animaciones CSS y lógica conmutadora en JavaScript.",
   "exp.2.title": "Soporte Técnico y Mantenimiento",
-  "exp.2.text":  "Diagnóstico y corrección de fallas de software, configuración de entornos de programación e instalación de hardware.",
+  "exp.2.text":  "Diagnóstico de errores del sistema, configuración de entornos de programación e instalación y optimización de componentes de hardware.",
 
   "portfolio.title": "Proyectos",
   "project.1.title": "Perfil Web Bilingüe",
@@ -81,14 +71,8 @@ const ES = {
   "footer.note": "Cristian Fernando Aguirre Rodriguez · Técnico Profesional en Programación Web · UniEspinal"
 };
 
-
 /* ------------------------------------------------------------
    2. ENGLISH TEXTS
-
-   Before writing this section, remember:
-   - Use action verbs: built, configured, fixed, tested, supported.
-   - Do not include age, marital status or a home address.
-   - Do not translate word by word. Rewrite.
    ------------------------------------------------------------ */
 const EN = {
   "nav.home":      "HOME",
@@ -107,7 +91,7 @@ const EN = {
   "about.valueLocation":  "El Espinal, Colombia",
   "about.labelEmail":     "Email",
   "about.labelLanguages": "Languages",
-  "about.valueLanguages": "Spanish (native) · English (Basic/Technical)",
+  "about.valueLanguages": "Spanish (native) · English (Basic)",
   "about.labelStatus":    "Availability",
   "about.valueStatus":    "Open to internships",
   "about.interestsTitle": "Interests",
@@ -130,14 +114,14 @@ const EN = {
   "resume.experience": "Experience",
 
   "edu.1.title": "Professional Technician in Web Programming",
-  "edu.1.text":  "Training focused on responsive web development using HTML, CSS, JavaScript logic, and relational database management.",
+  "edu.1.text":  "Training focused on responsive web design, structured frontend development with HTML/CSS, JavaScript interactivity, and database management.",
   "edu.2.title": "Technical English I & II",
-  "edu.2.text":  "Reading comprehension of technical documentation, reviewing README files, and presenting project updates clearly.",
+  "edu.2.text":  "Reading comprehension of technical documentation, managing English repositories, and technical presentation of projects.",
 
   "exp.1.title": "Frontend Developer (Capstone Project)",
-  "exp.1.text":  "Designed and built a bilingual personal portfolio (ES/EN) featuring custom CSS animations and a JavaScript language switcher.",
+  "exp.1.text":  "Designed and built a personal bilingual web platform (ES/EN) featuring CSS animations and JavaScript toggle logic.",
   "exp.2.title": "Technical Support & Maintenance",
-  "exp.2.text":  "Troubleshot software errors, configured local development tools, and installed and optimized hardware components.",
+  "exp.2.text":  "System error troubleshooting, development environment configuration, and hardware component setup and optimization.",
 
   "portfolio.title": "Projects",
   "project.1.title": "Bilingual Web Profile",
@@ -148,17 +132,15 @@ const EN = {
   "project.3.text":  "SQL, Database",
 
   "contact.title":         "Contact",
-  "contact.intro":         "Do you have a project in mind or an open opportunity? Send me a message and let's collaborate!",
+  "contact.intro":         "Do you have a project in mind or are you looking for someone with my skills? Send me a message and let's work together!",
   "contact.emailLabel":    "Email",
   "contact.linkedinValue": "github.com/cristian04111",
 
   "footer.note": "Cristian Fernando Aguirre Rodriguez · Professional Technician in Web Programming · UniEspinal"
 };
 
-
 /* ============================================================
    3. LANGUAGE SWITCHER
-   You do not need to change the code below.
    ============================================================ */
 
 const DICCIONARIOS = { es: ES, en: EN };
@@ -197,7 +179,6 @@ function cambiarIdioma() {
   aplicarIdioma(idiomaActual === "es" ? "en" : "es");
 }
 
-
 /* ============================================================
    4. RESPONSIVE MENU
    ============================================================ */
@@ -215,13 +196,8 @@ function cerrarMenu() {
   menuVisible = false;
 }
 
-
 /* ============================================================
    5. SKILL BARS
-
-   The width comes from the data-percent attribute in index.html.
-   You can add or remove skills freely: this code does not depend
-   on how many there are.
    ============================================================ */
 
 function animarHabilidades() {
@@ -250,7 +226,6 @@ function animarHabilidades() {
 
   barras.forEach(barra => observador.observe(barra));
 }
-
 
 /* ============================================================
    6. START
